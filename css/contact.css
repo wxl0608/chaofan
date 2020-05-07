@@ -1,0 +1,346 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+		margin:0;
+		padding: 0;	
+}
+.top{
+	width:100%;
+}
+.header{
+	width:1171px;
+	height: 80px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.logo a{
+	float: left;
+	width:420px;
+}
+.headerMain{
+	float: left;
+	height: 48px;
+	padding-top: 32px;
+}
+.main{
+	height: 24px;
+	overflow: hidden;
+}
+.headerMain a{
+	float: left;
+	width:70px;
+	margin-left: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	color:#333;
+	text-align: center;
+	text-decoration: none;
+}
+.main a:hover{
+	margin-top: -24px;
+}
+
+/*hr*/
+.hr{
+	background: url(../img/line.jpg) top center;
+	width:100%;
+	height: 3px;
+}
+/*CONTACT*/
+.CONTACT{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+	background: #edf1f3;
+}
+.contact_box{
+	margin:0 auto;
+	width:1171px;
+	padding-bottom: 55px;
+}
+.CONTACT .contact_bg{
+	height:115px;
+	background:url(../img/page_hd.png) no-repeat;
+	background-position: 0 -230px;
+	margin:40px 0;
+}
+.content{
+	width:1175px;
+	height: 1366px;
+	padding-top: 50px;
+	border-top: 1px solid #ccc;
+}
+.box_R{
+	width:348px;
+	height: 1261px;
+	float: right;
+	background: white;
+}
+.box_R h1{
+	font: 26px/26px "微软雅黑";
+    color: #299edb;
+    padding: 2px 0 17px 10px;
+}
+.box_R h4{
+	font: 16px/26px "微软雅黑";
+    color: #0093dd;
+    padding: 10px 10px;
+}
+.box_R p{
+	padding: 13px 10px 25px;
+    font: 13px/24px "微软雅黑";
+    color: #4c4c4c;
+}
+.box_R p img{
+	padding-left: 0;
+}
+.box_R a p{
+	padding:0;
+	border-top: 10px solid #edf1f3;
+}
+.box_L{
+	width:796px;
+	float: left;
+}
+.box_L h4{
+	font: 20px/24px "微软雅黑";
+    color: #0093dd;
+    padding-bottom: 25px;
+}
+.box_L b{
+	margin-bottom: 5px;
+	font: 14px/1.6em "微软雅黑",Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.box_L p{
+	/*line-height: 24px;*/
+    color: #666;
+    font: 14px/24px "微软雅黑";
+}
+.box_L a{
+    color: #666;
+    font: 14px/24px "微软雅黑";
+	text-decoration: none;
+}
+.box_L a img{
+	line-height: 24px;
+	vertical-align: top;
+}
+.box{
+	width:50%;
+	margin-top: 20px;
+	float: left;
+}
+.img img{
+	margin-top: 40px;
+}
+form{
+	margin-top: 30px;
+}
+form h4{
+	font: 20px/24px "微软雅黑";
+    color: #0093dd;
+    padding-bottom: 25px;
+}
+form span{
+	color:red;
+}
+.box_L form p{
+	color: #000;
+    font: 14px/22px "微软雅黑";
+    padding-bottom: 15px;
+}
+form .text{
+	width:289px;
+	height: 42px;
+	border: solid 1px #e2e5e6;
+}
+form .text_I{
+	width:666px;
+	height: 132px;
+	border: solid 1px #e2e5e6;
+}
+form .text_II{
+	width:142px;
+	height: 42px;
+	border: solid 1px #e2e5e6;
+}
+form p img{
+	vertical-align: top;
+	width:104px;
+	height: 42px;
+}
+form div{
+	color: #000;
+    font: 14px/43px "微软雅黑";
+	height: 43px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+form div .form_A{
+	height: 43px;
+    padding: 0 20px;
+    background: #0093dd;
+    border-radius: 3px;
+    font: 18px/43px "微软雅黑";
+    color: #fff;
+    float: left;
+    margin-left: 68px;
+}
+form div{
+	text-align: center;
+}
+form div .form_last_A:hover{
+    color: #0093dd;
+}
+/*contact*/
+.contact{
+	width:100%;
+	overflow: hidden;
+	background: url(../img/footer_bg.jpg) center top;
+}
+.contact .cl-top{
+	text-align: center;
+	padding-top: 42px;
+	padding-bottom: 22px;
+}
+.contact h3{
+	text-align: center;
+	font: 24px/24px "微软雅黑";
+    color: #ddd;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+ul{
+	width:1170px;
+	margin:0 auto;
+	overflow: hidden;
+}
+ul li{
+	float: left;
+	width:260px;
+	padding: 20px 0;
+	margin-left: 16px;
+}
+ul .first_L{
+	margin-left: 0;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding-left: 70px;
+    background: no-repeat left center;
+    font-size: 20px;
+    line-height: 30px;
+}
+ul li{
+	width:280px;
+	color:#fff;
+	list-style: none;
+}
+li span{
+	font-size: 16px;
+	line-height: 24px;
+	float: left;
+}
+.ul li span{
+    line-height: 80px;
+    height: 80px;
+    width: 196px;
+    font-size: 16px;
+    color: #aaa;
+}
+ul li div{
+	border: 1px solid #333;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding-left: 70px;
+    background: no-repeat left center;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about{
+	width:1170px;
+	height: 180px;
+	margin:0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.about .left{
+	float:left;
+	width:819px;
+	height: 180px;
+}
+.left p{
+	width:819px;
+	height: 30px;
+	font-size: 14px;
+    line-height: 30px;
+    color: #7f7f7f;
+}
+.left:hover a{
+	color:white;
+}
+.left:hover p{
+	color:white;
+}
+.left a{
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.right{
+	float:left;
+	width:351px;
+	height: 172px;
+}
+.right div{
+	float:left;
+	width:140px;
+	height: 172px;
+	margin-right: 20px;
+}
+.right div img{
+	width:140px;
+	height: 140px;
+}
+.right p{
+	color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font: 14px/22px "微软雅黑";
+}
+.friend{
+	width:1170px;
+	height: 24px;
+	margin:0 auto;
+	padding-top: 17px;
+	border-top: solid 1px #4d4d4d;
+	margin-top: 40px;
+}
+.contact .friend p{
+	float: left;
+	font: 13px/24px "微软雅黑";
+	color:#979797;
+}
+.contact .friend a{
+	text-decoration: none;
+	font: 13px/24px "微软雅黑";
+	line-height: ;
+	color:#979797;
+}
+.contact a:hover{
+	color:white;
+}
+/*footer*/
+.footer{
+	width:100%;
+    background: #191919;
+}
+.footer .wrap{
+	width: 1170px;
+    height: 45px;
+	margin:0 auto;
+    font: 13px/45px "微软雅黑";
+    color: #8c8c8c;
+    overflow: hidden;
+}
